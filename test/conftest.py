@@ -22,7 +22,7 @@ def setup(request):
     elif browser_name == "edge":
         driver = webdriver.Edge(EdgeChromiumDriverManager().install())
 
-    driver.get("http://automationpractice.com/index.php")
+    driver.get("http://automationpractice.pl/index.php")
     driver.maximize_window()
     request.cls.driver = driver
     yield
