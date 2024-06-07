@@ -1,5 +1,5 @@
 
-# script-tests-my-store
+# Pytest-Selenium-my-store
 
 ## Overview
 This project contains automated tests for an online store, focusing on various functionalities like searching products, navigating pages, applying filters, and user authentication.
